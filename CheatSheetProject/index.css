@@ -1,0 +1,111 @@
+
+
+body{
+    background-color: #a8cf2b ;
+    text-align: center;
+
+}
+
+.banner {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+   
+   }
+
+   .banner::before {
+    content: "";
+    background-image: url(../CheatSheetProject/resources/images/cheating.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover; 
+    position: absolute;
+    opacity: .75;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    
+
+   }
+
+h1 {
+    font-family: "Titan One";
+    font-size: 100px;
+    text-shadow: 8px 6px #b87a7f;
+    margin: 0;
+    position: relative;
+}
+
+.title {
+    font-family: "concert one";
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #bf3743;
+    text-shadow: 2px 2px #b87a7f ;
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    position:  inherit; 
+    font-family: 'concert one';
+
+}
+
+table, thead, tbody, td, tr {
+    border: 2px black solid;
+    border-collapse: collapse;
+}
+
+
+h3 {
+    font-family: 'concert one';
+    font-size:25px;
+    
+}
+
+h4{
+    font-family: 'concert one';
+    font-size: 20px;
+
+}
+
+p{
+    font-family: 'barlow';
+    margin-top: 0px auto;
+
+}
+ 
+span {
+    font-weight: bold;
+}
+#tableHead {
+    font-family: "barlow";
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #bf3743;
+}
+
+#tableBody {
+    font-family: 'barlow';
+    background-color: #d8a6aa;
+
+    
+}
+
+#element, #attribute {
+    font-family: 'barlow';
+    font-weight: 500;
+    background-color: #b87a7f;
+}
+
+ul {
+    font-family: 'barlow';
+    list-style-position: inside;
+    text-align: center;
+    font-weight: bold;
+
+}

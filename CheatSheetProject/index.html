@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<head>
+    <title>SP's Cheats </title>
+    <link rel="stylesheet" href="C:\Users\sspal\OneDrive\Desktop\CodeCademy\DevProjects\CheatSheetProject\index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;1,400&family=Concert+One&family=Titan+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--banner section-->
+    <div class="banner">
+        <h1>SP's Basic-Ass Cheat Sheet!</h1>
+    </div>
+    
+    <!--page title section-->
+    <div class="title">
+        <h2>My first attempt at implementing the very thing I am making a cheat sheet for!</h2>
+        <nav></nav>
+    </div>
+
+    <!--HTML notes section-->
+    <div>
+        <section>
+            <h3>HTML</h3>
+            <p><span>HTML</span> is the skeletal framework of a web page. It relies on a heirarchical structure, made up of <span>Elements,</span><span> Attributes,</span> and <span>Content.</span><br>
+            The heirarchy requires "parent" elements to come before their nested "child" elements. This table demonstrates some element tags in order of their heirarchy. </p>
+            <h4>Elements</h4>  
+            <p>An HTML element is defined by a start tag, some content, and an end tag.</p>
+                <table class="table">
+                    <thead id="tableHead">
+                        <tr>
+                            <th>Element</th>
+                            <th>What it does and how to use it!</th>
+                        </tr>
+                        <tbody id="tableBody">
+                            <tr>
+                                <td id="element">&lt;!DOCTYPE&gt;</td>
+                                <td>The DOCTYPE is not technically a tag but a declaration that tells the browser what kind of file will be loaded.<br> 
+                                    This tag tells the browser the type of HTML that will be loaded. It goes at the top of your document before anything else. </td>
+                            </tr>
+                            <tr>
+                                <td id="element">&lt;html&gt;...&lt;/html&gt;</td>
+                                <td>comes after the DOCTYPE tag. This tag defines the document as a web page; every other element will be nested inside.<br>
+                                    The HTML tag specifies the beginning and end of an HTML document.</td>
+                            </tr>
+                            <tr>
+                                <td id="element">&lt;head&gt;...&lt;/head&gt;</td>
+                                <td>This tag goes after the opening html tag and displays the page's "Metadata" such as the page title, and links to external stylesheets, webfonts, etc. <br>
+                                Nothing written between these tags displays on your webpage, however the title will appear in the tab of your open webpage.</td>
+                            </tr>
+                            <tr>
+                                <td id="element">&lt;title&gt;...&lt;/title&gt;</td>
+                                <td>This is the title tag that goes inside of your head tag and defines the displayed title of your page.</td>
+                            </tr>
+                            <tr>
+                                <td id="element">&lt;body&gt;...&lt;/body&gt;</td>
+                                <td>This tag displays all the visible content on a web page. Images, links, plain text, videos, and more can be found inside the body tags. <br>
+                                This will include your Headings, Divs, Paragraphs, Images, Links and more!</td>
+                            </tr>
+                        </tbody>
+                    </thead>        
+                </table>
+        </section> 
+    </div>           
+
+    <div>
+        <section>       
+            <h4>Attributes</h4>
+            <p>HTML attributes provide additional information about HTML elements. 
+                These are additional values that configure the elements or adjust their behavior in various ways to meet the criteria the users want.
+                <br>There are <span>four</span> essential attributes that you can apply to almost all HTML elements.</p>
+                <table class="table">
+                    <thead id="tableHead">
+                        <tr>
+                            <th>Attribute</th>
+                            <th>What it does and how to use it!</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                        <tr>
+                            <td id="attribute">id Attribute</td>
+                            <td>The id attribute can be applied to assign a unique identity to any element.<br> When you have two elements of the same name within the same script, the id attribute helps to distinguish two similar elements through the unique ID. </td>
+                        </tr>
+                        <tr>
+                            <td id="attribute">title Attribute</td>
+                            <td>The title attribute gives a recommended title for your element.</td>
+                        </tr>
+                        <tr>
+                            <td id="attribute">class Attribute</td>
+                            <td>This attribute is implemented by combining an element through a stylesheet (CSS) and identifying its class element. </td>
+                        </tr>
+                        <tr>
+                            <td id="attribute">style Attribute</td>
+                            <td>This attribute gives you a chance for specifying the rules for Cascading Style Sheet (CSS) in your element. </td>
+                        </tr>
+                    </tbody>
+                </table>    
+            <h4>Content</h4>
+            <p>The content is whatever you want to express in your site that lives within your HTML tags!</p>
+            
+        </section>
+    </div>
+
+    <!--CSS notes section-->
+    <div>
+        <section>
+            <h3>CSS</h3>
+            <p><span>CSS</span> is a language in the form of a <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/StyleSheet">stylesheet</a>. It is the next step you
+                take in styling a web page! CSS brings your basic HTML to life by styling its layout, fonts, colors, and other decorative elements! 
+            </p>
+            <h4>Selectors</h4>  
+            <p>CSS uses "selectors" to target
+                HTML elements that you want to apply style to. <br>
+                These selectors often correspond with the 'attributes' we named  in the Attributes table above.
+                    <ul>
+                        <li>When selecting an element, use the same callouts as the elements in HTML, followed by curly braces. 
+                        <li>When selecting an 'id' place a hash # in front of the name assigned to the id, followed by curly braces. 
+                        <li>When selecting a 'class' place a period in front of the name assigned to the class, followed by curly braces.
+                    </ul>
+             </p>
+                  
+           
+            <h4>Declarations</h4>
+            <p>This is a single rule like that specifies which of the element's properties you want to style.</p>
+            <table>
+                <thead>
+                    <tr></tr>
+                </thead>
+                <tbody>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tbody>
+            <h4>Properties and Property Values</h4>
+            <p> Properties are ways in which you can style an HTML element.  In CSS, you choose which properties you want to affect in the rule. 
+                To the right of the property—after the colon—there is the property value. This chooses one out of many possible appearances for a given property.</p>
+            <table>
+                <thead>
+                    <tr></tr>
+                </thead>
+                <tbody>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tbody>
+        </section>
+    </div>
+
+</body>
